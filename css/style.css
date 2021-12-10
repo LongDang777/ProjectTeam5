@@ -1714,8 +1714,8 @@ footer {
   color: var(--primary-color);
 }
 
-.w3l-copyright #movetop {
-  /* display: none; */
+ .movetop {
+  
   position: fixed;
   bottom: 55px;
   right: 20px;
@@ -1732,6 +1732,12 @@ footer {
   line-height: 36px;
   border-radius: 35px;
   transition: 0.3s ease-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.cd-top--is-visible {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* CSS title header */
