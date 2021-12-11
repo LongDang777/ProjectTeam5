@@ -1389,8 +1389,8 @@ div#small-dialog iframe {
 .blogposts .card-body p {
   margin: 0;
   padding: 0;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 28px;
   color: var(--font-color);
   font-family: "Quicksand", sans-serif;
 }
@@ -1707,8 +1707,9 @@ footer {
   color: var(--primary-color);
 }
 
-.w3l-copyright #movetop {
+.w3l-copyright .movetop {
   /* display: none; */
+  display: block;
   position: fixed;
   bottom: 55px;
   right: 20px;
@@ -1725,6 +1726,7 @@ footer {
   line-height: 36px;
   border-radius: 35px;
   transition: 0.3s ease-out;
+  /* visibility: hidden; */
 }
 
 /* CSS title header */
@@ -1919,6 +1921,21 @@ footer {
 .box-wrap-grid .info h4 a:hover {
   color: var(--primary-color);
 }
+
+.cd-top--is-visible { 
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top--fade-out { 
+  opacity: .5;
+}
+
+
+.w3l-copyright .copy-footer-29 a:hover {
+ color: #fff;
+}
+
 
 /* Responsive */
 @media screen and (min-width: 0) {
