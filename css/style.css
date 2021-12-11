@@ -1713,6 +1713,9 @@ footer {
   text-decoration: none;
   color: var(--primary-color);
 }
+.w3l-copyright .copy-footer-29 a:hover{
+  color: #fff;
+}
 
  .movetop {
   
