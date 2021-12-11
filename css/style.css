@@ -1714,14 +1714,8 @@ footer {
   color: var(--primary-color);
 }
 
-<<<<<<< HEAD
-.w3l-copyright .movetop {
-  /* display: none; */
-  display: block;
-=======
  .movetop {
   
->>>>>>> ee38960d3d3dac3ce44421cb5eb8255723b116d6
   position: fixed;
   bottom: 55px;
   right: 20px;
@@ -1738,16 +1732,13 @@ footer {
   line-height: 36px;
   border-radius: 35px;
   transition: 0.3s ease-out;
-<<<<<<< HEAD
   /* visibility: hidden; */
-=======
   opacity: 0;
   visibility: hidden;
 }
 .cd-top--is-visible {
   visibility: visible;
   opacity: 1;
->>>>>>> ee38960d3d3dac3ce44421cb5eb8255723b116d6
 }
 
 /* CSS title header */
@@ -1944,139 +1935,6 @@ footer {
 }
 /* Reponsive container  */
 
-<<<<<<< HEAD
-.cd-top--is-visible { 
-  visibility: visible;
-  opacity: 1;
-}
-
-.cd-top--fade-out { 
-  opacity: .5;
-}
-
-
-.w3l-copyright .copy-footer-29 a:hover {
- color: #fff;
-}
-
-
-/* Responsive */
-@media screen and (min-width: 0) {
-  .banner {
-    min-height: 600px;
-    margin-top: 60px;
-  }
-
-  .header__search {
-    display: none;
-  }
-
-  .carousel__content h3 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-
-  .header__overlay ul li a {
-    font-size: 16px;
-  }
-
-  .title h6 {
-    font-size: 16px;
-    margin-bottom: 0;
-  }
-
-  .title h3 {
-    font-size: 30px;
-    line-height: 38px;
-  }
-
-  .block__img {
-    min-height: 200px;
-  }
-
-  #block a {
-    font-size: 18px;
-    text-decoration: none;
-  }
-
-  .block__subcribe {
-    grid-gap: 20px 10px;
-  }
-
-  .about__right p {
-    line-height: 26px;
-  }
-
-  .block__agent .title p {
-    font-size: 16px;
-    line-height: 26px;
-  }
-
-  .middle__content h3 {
-    font-size: 35px;
-    line-height: 40px;
-  }
-
-  #stats {
-    margin-top: 0;
-  }
-
-  .timer {
-    font-size: 2em;
-  }
-
-  .video__img {
-    min-height: 350px;
-  }
-}
-@media screen and (min-width: 600px) {
-  .header__search {
-    display: block;
-  }
-
-  .title h6 {
-    font-size: 20px;
-    margin-bottom: 0;
-  }
-
-  .title h3 {
-    font-size: 32px;
-    line-height: 40px;
-  }
-
-  .about__right p {
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .block__agent .title p {
-    font-size: 18px;
-    line-height: 28px;
-  }
-}
-@media screen and (min-width: 640px) {
-  .timer {
-    font-size: 2.6em;
-    font-weight: 600;
-  }
-
-  .counter {
-    text-align: center;
-    padding: 40px 20px;
-  }
-
-  .video__img {
-    min-height: 400px;
-  }
-}
-@media screen and (min-width: 736px) {
-  .middle__content h3 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-}
-=======
->>>>>>> ee38960d3d3dac3ce44421cb5eb8255723b116d6
 @media screen and (min-width: 768px) {
   .container {
     max-width: 720px;
